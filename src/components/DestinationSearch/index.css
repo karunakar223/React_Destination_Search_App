@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.bg-container {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: auto;
+  background-size: cover;
+}
+
+.main-heading {
+  color: #252627;
+  font-size: 38px;
+  font-weight: 900;
+}
+.search-container {
+  display: flex;
+  background-color: #f1f5f9;
+  border: 0px solid #0f172a;
+  border-radius: 9px;
+  width: 220px;
+  padding: 9px;
+}
+.search {
+  border: none;
+  outline: none;
+  background-color: #f1f5f9;
+  border-radius: 9px;
+}
+
+.img-icon {
+  height: 30px;
+  width: 25px;
+}
+
+.ul-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 750px;
+}
